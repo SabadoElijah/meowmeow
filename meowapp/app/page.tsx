@@ -25,8 +25,8 @@ export default function Home() {
 
   const importTokens = async () => {
     const { ethereum } = window as any;
-    const tokenAddress = "0x1CEF3c2858c276F15E583534AF565cdAFc190848"; // Replace with the actual token address
-    const tokenSymbol = "MEW";
+    const tokenAddress = "0xb184Bb2b722c066aab1319d6a49368674b15c59a"; // Replace with the actual token address
+    const tokenSymbol = "CAT";
     const tokenDecimal = 18;
 
     try {
@@ -178,7 +178,7 @@ export default function Home() {
         >
           <form style={{ marginTop: "40px" }}
           className="text-center">
-            <label>Need more tokens?</label>
+            <label>Mint tokens</label>
             <br></br>
             <input
               type="number"
@@ -286,6 +286,7 @@ export default function Home() {
               alignItems: "center",
               justifyContent: "center",
               minHeight: "20vh",
+              fontSize: "13px"
             }}
           >
             <br></br>
