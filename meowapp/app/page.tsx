@@ -25,7 +25,7 @@ export default function Home() {
 
   const importTokens = async () => {
     const { ethereum } = window as any;
-    const tokenAddress = "0xb184Bb2b722c066aab1319d6a49368674b15c59a"; // Replace with the actual token address
+    const tokenAddress = "0xc1CD0127aE3A22E52022fDCe67bD6D1C37f47190"; // Replace with the actual token address
     const tokenSymbol = "CAT";
     const tokenDecimal = 18;
 
