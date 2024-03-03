@@ -163,7 +163,7 @@ export default function Home() {
               className="p-3 bg-amber-950 text-white rounded"
               style={{ fontFamily: "Courier New" }}
             >
-              {"Import Tokens"}
+              {"Import Token"}
             </button>
           )}
         </div>
@@ -178,7 +178,7 @@ export default function Home() {
         >
           <form style={{ marginTop: "40px" }}
           className="text-center">
-            <label>Mint tokens</label>
+            <label>Mint tokens (must be less than 20)</label>
             <br></br>
             <input
               type="number"

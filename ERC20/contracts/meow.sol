@@ -20,7 +20,7 @@ contract meow is ERC20, Ownable {
         Ownable(initialOwner)
     {}
 
-    function mint(address to, uint256 amount) public onlyOwner {
+    function mint(address to, uint256 amount) public {
         uint256 adjustedAmount = amount * 1e18;
         _mint(to, adjustedAmount);
     }
